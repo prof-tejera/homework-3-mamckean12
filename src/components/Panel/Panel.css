@@ -1,6 +1,7 @@
 .Default-panel {
   border: #e3e2e2;
-  color: #dadada;
+  background-color: #dadada;
+  color: green;
   padding: 1 rem;
 }
 
