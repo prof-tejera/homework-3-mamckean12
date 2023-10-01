@@ -1,4 +1,22 @@
-.Default-input {
-  background-color: yellow;
+.input-wrapper {
+  padding: 5px;
 }
 
+.Default-input {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  font-size: 16px;
+}
+
+.Default-input-active {
+  background-color: rgb(222, 221, 221);
+}
+
+.Default-input:hover {
+  background-color: rgb(222, 221, 221);
+}
+
+label {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}

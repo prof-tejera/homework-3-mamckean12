@@ -15,7 +15,7 @@ const MediaButtons = () => {
   };
 
   return (
-    <Panel backgroundColor="blue">
+    <Panel>
       <Button
         active={activeType === "rewind"}
         onClick={() => handleClick("rewind")}
