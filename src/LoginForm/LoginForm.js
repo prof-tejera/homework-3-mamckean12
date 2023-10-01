@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Panel from "components/Panel/Panel";
 import Input from "components/Input/Input";
 import Button from "components/Button/Button";
@@ -28,7 +27,7 @@ const LoginForm = () => {
         </Input>
       </div>
       <div>
-        <Button text="Login" />
+        <Button text="Login" size="Medium"/>
       </div>
       <a href="https://www.w3schools.com/">Forgot Password?</a>    
     </Panel>

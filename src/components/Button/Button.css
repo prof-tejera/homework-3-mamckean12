@@ -21,4 +21,14 @@
   background-color: rgb(223, 190, 144);
 }
 
+.Large {
+  padding: 20px 30px;
+}
 
+.Medium {
+  padding: 10px 20px;
+}
+
+.Small {
+  padding: 5px 10px;
+}

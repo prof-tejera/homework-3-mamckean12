@@ -20,21 +20,25 @@ const MediaButtons = () => {
         active={activeType === "rewind"}
         onClick={() => handleClick("rewind")}
         text="Rewind"
+        size="Large"
       />
       <Button
         active={activeType === "fast-forward"}
         onClick={() => handleClick("fast-forward")}
         text="Fast Forward"
+        size="Large"
       />
       <Button
         active={activeType === "play"}
         onClick={() => handleClick("play")}
         text="Play"
+        size="Large"
       />
       <Button
         active={activeType === "stop"}
         onClick={() => handleClick("stop")}
         text="Stop"
+        size="Large"
       />
     </Panel>
   );
