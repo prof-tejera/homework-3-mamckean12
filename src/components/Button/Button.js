@@ -6,8 +6,9 @@ const Button = ({ active, text, ...btnProps }) => {
 
   return (
     <button
-      className={active ? "Default-button-active Default-button"  : "Default-button" }
-      style={{backgroundColor: btnProps.color, fontSize: btnProps.size, color: btnProps.fontcolor}}
+      className={active ? "Default-button Default-button-active" : "Default-button"}
+      {...btnProps}
+      style={{fontSize: btnProps.size, color: btnProps.fontcolor}}
     >
       {text}
     </button>

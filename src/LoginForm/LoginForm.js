@@ -27,7 +27,7 @@ const LoginForm = () => {
         </Input>
       </div>
       <div>
-        <Button text="Login" color="grey" fontcolor="white"/>
+        <Button text="Login"/>
       </div>
       <a href="https://www.w3schools.com/">Forgot Password?</a>    
     </Panel>
