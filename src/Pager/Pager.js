@@ -6,13 +6,13 @@ import "./Pager.css";
 const Pager = () => {
   return (
     <Panel>
-      <Button text="<" size="Small"/>
-      <Button text="1" size="Small"/>
-      <Button text="2" size="Small"/>
-      <Button text="3" size="Small"/>
-      <Button text="..." size="Small"/>
-      <Button text="5" size="Small"/>
-      <Button text=">" size="Small"/>
+      <Button text="<" size="12px"/>
+      <Button text="1" size="12px"/>
+      <Button text="2" size="12px"/>
+      <Button text="3" size="12px"/>
+      <Button text="..." size="12px"/>
+      <Button text="5" size="12px"/>
+      <Button text=">" size="12px"/>
     </Panel>
   );
 };

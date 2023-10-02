@@ -1,7 +1,7 @@
 .App-component {
   border: 1px solid rgb(199, 199, 199);
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background-image: linear-gradient(to bottom right, rgb(201, 178, 202), white);
   box-shadow: 3px 3px 2px 1px rgba(105, 105, 137, 0.2);
   border-radius: 25px;

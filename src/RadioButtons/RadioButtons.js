@@ -5,9 +5,9 @@ import "./RadioButtons.css";
 const RadioButtons = () => {
   return (
     <Panel>
-      <Button />
-      <Button />
-      <Button />
+      <Button text="Apple" color="red" fontcolor="white"/>
+      <Button text="Pear" color="green" fontcolor="white"/>
+      <Button text="Orange" color="orange" fontcolor="white"/>
     </Panel>
   );
 };
