@@ -4,6 +4,7 @@ import Pager from "Pager/Pager";
 import RadioButtons from "RadioButtons/RadioButtons";
 import "./App.css";
 
+// function that calls the highest level components to be rendered on the page
 const App = () => {
   return (
     <div>

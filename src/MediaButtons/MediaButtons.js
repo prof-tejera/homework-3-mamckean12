@@ -1,3 +1,4 @@
+// this component provided by professor/TA as an example - no modifications made
 import { useState } from "react";
 import Panel from "components/Panel/Panel";
 import Button from "components/Button/Button";
@@ -15,7 +16,7 @@ const MediaButtons = () => {
   };
 
   return (
-    <Panel>
+    <Panel backgroundColor="blue">
       <Button
         active={activeType === "rewind"}
         onClick={() => handleClick("rewind")}
