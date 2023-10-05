@@ -1,7 +1,7 @@
 .Default-button {
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -9,12 +9,14 @@
   margin: 4px 2px;
   cursor: pointer;
   font-weight: bold;
+  border-radius: 10px;
+  color: rgb(69, 32, 69);
 }
 
 .Default-button-active {
-  background-color: rgb(71, 145, 241);
+  background-color: rgb(224, 206, 179);
 }
 
 .Default-button:hover {
-  background-color: rgb(71, 145, 241);
+  background-color: rgb(224, 206, 179);
 }

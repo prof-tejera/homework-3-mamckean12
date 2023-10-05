@@ -1,3 +1,4 @@
+// this component provided by professor/TA as an example - no modifications made
 import { useState } from "react";
 import Panel from "components/Panel/Panel";
 import Button from "components/Button/Button";
@@ -20,21 +21,25 @@ const MediaButtons = () => {
         active={activeType === "rewind"}
         onClick={() => handleClick("rewind")}
         text="Rewind"
+        size="18px"
       />
       <Button
         active={activeType === "fast-forward"}
         onClick={() => handleClick("fast-forward")}
         text="Fast Forward"
+        size="18px"
       />
       <Button
         active={activeType === "play"}
         onClick={() => handleClick("play")}
         text="Play"
+        size="18px"
       />
       <Button
         active={activeType === "stop"}
         onClick={() => handleClick("stop")}
         text="Stop"
+        size="18px"
       />
     </Panel>
   );
