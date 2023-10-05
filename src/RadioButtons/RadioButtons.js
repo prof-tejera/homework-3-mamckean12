@@ -40,7 +40,6 @@ const RadioButtons = () => {
     // render panel component to frame the rendered buttons below
     <Panel>
       {buttons.map(({ text, fontcolor }) => {
-        console.log("buttons.map text: ", text);
         return (
           // render buttons using button component with these properties passed to that component
           <Button

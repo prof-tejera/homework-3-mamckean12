@@ -3,8 +3,6 @@ import "./Button.css";
 
 // function to handle button component rendering requests from higher level components
 const Button = ({ active, text, ...btnProps }) => {
-  console.log("button, active: ", active);
-  console.log("button props: ", btnProps);
   // function to handle panel component rendering requests from higher level components
   return (
     // use conditional className to handle button click / active state management

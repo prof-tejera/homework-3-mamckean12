@@ -3,8 +3,6 @@ import "./Input.css";
 
 // function to handle input component rendering requests from higher level components
 const Input = ({ active, ...inputProps }) => {
-  console.log("input active: ", active);
-  console.log("input props: ", inputProps);
   return (
     <>
       {/* use conditional className to handle button click / active state management 

@@ -13,7 +13,6 @@ const data = {
 
 // convert pager data object to a buttons array for use by buttons component
 const buttons = [];
-console.log("data.count: ", data.count);
 // create the first three numbered buttons (the rest will be represented as an ellipsis)
 for (let i = 0; i < 3; i++) {
   buttons.push({ text: i + 1,}); 
@@ -26,7 +25,6 @@ buttons.push({text: "..."});
 buttons.push({text: data.count});
 // add end icon
 buttons.push({text: data.endIcon});
-console.log("buttons array: ", buttons);
 
 // function to create pager buttons based on created buttons array
 const Pager = () => {
@@ -48,7 +46,6 @@ const Pager = () => {
   // render panel component to frame the rendered buttons below
     <Panel>
       {buttons.map(({ text, fontcolor }) => {
-        console.log("buttons.map text: ", text);
         return (
         // render buttons using button component with these properties passed to that component
         <Button

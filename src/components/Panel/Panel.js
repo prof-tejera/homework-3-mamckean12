@@ -3,8 +3,6 @@ import "./Panel.css";
 
 // function to handle panel component rendering requests from higher level components
 const Panel = (props) => {
-  console.log("panel props: ", props);
-  console.log("panel props.children: ", props.children);
   return (
     // override default background color if that property is passed in (e.g., MediaButtons.js) 
     // also incorporate any properties from panel children components 
